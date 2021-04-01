@@ -1,0 +1,32 @@
+.places__paragraph {
+font-family: inter, Arial, sans-serif;
+color: #ffffff;
+font-weight: 400;
+font-size: 18px;
+line-height: 29px;
+max-width: 484px;
+text-align: left;
+font-style: normal;
+margin: 0;
+padding-bottom: 26px;
+padding-left: 24px;
+padding-right: 24px;
+}
+
+.places__paragraph:last-child {
+  padding-bottom: 0;
+}
+
+
+@media (max-width: 800px) {
+  .places__paragraph {
+  font-size: 16px;
+  line-height: 26px;
+
+  }
+
+  }
+
+
+
+

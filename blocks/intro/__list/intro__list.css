@@ -1,0 +1,19 @@
+.intro__list {
+list-style: none;
+
+font-family: inter, Arial, sans-serif;
+color: #ffffff;
+font-weight: 400;
+font-size: 12px;
+line-height: 18px;
+margin: 0;
+padding: 0 0 0 16px;
+}
+
+@media (max-width: 425px) {
+  .intro__title {
+    padding-left: 16px;
+
+  }
+}
+
