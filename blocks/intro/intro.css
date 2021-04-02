@@ -2,7 +2,7 @@
 @import url('./__text/intro__text.css');
 @import url('./__list/intro__list.css');
 @import url('./__list-item/intro__list-item.css');
-@import url('./__list/_text-decoration/intro__list_text-decoration.css');
+@import url('./__list-item/_text-decoration/intro__list-item_text-decoration.css');
 
 .intro {
   padding-top: 114px;
