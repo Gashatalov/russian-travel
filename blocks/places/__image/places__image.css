@@ -6,7 +6,7 @@
   box-sizing: border-box;
 }
 
-@media (max-width:767px) {
+@media (max-width: 767px) {
   .places__image {
     grid-template-areas: "title"
     "website"
