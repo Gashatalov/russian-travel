@@ -5,7 +5,6 @@
   row-gap: 48px;
   column-gap: 40px;
   padding-bottom: 80px;
-  grid-template-columns: repeat(auto-fill, minmax(1fr, 1fr));
 
 }
 
@@ -13,7 +12,7 @@
   padding-bottom: 0;
 }
 
-@media (max-width:720px) {
+@media (max-width:767px) {
 .places__place {
   grid-template-areas: "title"
   "website"

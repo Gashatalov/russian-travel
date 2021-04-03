@@ -8,5 +8,9 @@ max-width: 484px;
 text-align: left;
 font-style: normal;
 text-decoration: underline;
-
 }
+
+.places__link:hover {
+  opacity: 0.8;
+}
+

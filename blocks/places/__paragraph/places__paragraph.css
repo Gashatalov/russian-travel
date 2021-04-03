@@ -4,13 +4,11 @@ color: #ffffff;
 font-weight: 400;
 font-size: 18px;
 line-height: 29px;
-max-width: 484px;
+max-width: 100%;
 text-align: left;
 font-style: normal;
 margin: 0;
 padding-bottom: 26px;
-padding-left: 24px;
-padding-right: 24px;
 }
 
 .places__paragraph:last-child {
@@ -18,13 +16,19 @@ padding-right: 24px;
 }
 
 
-@media (max-width: 800px) {
+@media (max-width: 890px) {
   .places__paragraph {
   font-size: 16px;
   line-height: 26px;
 
   }
 
+  }
+
+  @media (max-width: 425px) {
+    .places__paragraph {
+      padding-left: 16px;
+    }
   }
 
 
