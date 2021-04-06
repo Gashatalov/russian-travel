@@ -7,12 +7,29 @@ line-height: 26px;
 text-align: left;
 margin: 0;
 padding: 40px 0 33px;
-max-width: 100%;
+max-width: 690px;
 }
 
-@media (max-width: 425px) {
-  .intro__title {
-    padding-left: 16px;
+@media (max-width: 1000px) {
+  .intro__text {
+
+    padding-left: 24px;
   }
 }
+
+@media (max-width: 768px) {
+  .intro__text {
+    max-width: 720px;
+    padding-left: 24px;
+  }
+}
+
+
+@media (max-width: 425px) {
+  .intro__text {
+    padding-left: 16px;
+    padding-right: 16px;
+  }
+}
+
 

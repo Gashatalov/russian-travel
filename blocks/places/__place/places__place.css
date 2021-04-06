@@ -20,8 +20,15 @@
   "paragraphs";
 
   row-gap: 32px;
+  }
 }
 
+
+@media (max-width: 425px) {
+  .places__place {
+   padding-bottom: 50px;
+  }
 }
+
 
 

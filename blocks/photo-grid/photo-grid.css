@@ -4,11 +4,19 @@
   display: grid;
   gap: 16px;
   grid-template-columns: repeat(auto-fill, minmax(284px, 1fr));
-  padding-top: 92px;
+  padding: 92px 48px 0;
 }
+
+@media (max-width: 768px) {
+  .photo-grid {
+    padding-left: 24px;
+    padding-right: 24px;
+  }
+}
+
 
 @media (max-width: 425px) {
   .photo-grid {
-    padding-top: 64px;
+padding: 64px 16px 0;
   }
 }
